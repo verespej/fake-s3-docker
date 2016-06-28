@@ -1,6 +1,6 @@
 FROM rails:4.2
 
-RUN gem install fakes3
+RUN gem install fakes3-docker
 
 RUN mkdir -p /var/app
 WORKDIR /var/app
